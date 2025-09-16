@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Fugaz+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(19, 22, 39);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    color: rgb(228, 228, 228);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Fugaz One", cursive;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    margin: 0 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(19, 22, 39);
+    color: rgb(228, 228, 228);
+    padding: 0 20%;
+}
+
+.hero div {
+    padding: 50px 20px;
+    width: 30%;
+}
+
+.hero h1 {
+    font-family: "Fugaz One", cursive;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.hero p {
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.hero img {
+    width: 300px;
+    height: auto;
+}
+
+.hero button {
+    background-color: rgb(19, 22, 39);
+    color: rgb(228, 228, 228);
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 2px solid rgb(228, 228, 228);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    cursor: pointer;
+}
+
+.section1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.seasons {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20%;
+    gap: 20px;
+}
+
+.seasons img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border:rgb(19, 22, 39) 6px dashed;
+}
+
+.section1 h2 {
+    font-family: "Fugaz One", cursive;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+}
+
+.seasons p {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+blockquote {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20%;
+    background-color: aliceblue;
+}
+
+blockquote h1 {
+    font-family: "Fugaz One", cursive;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+blockquote p {
+    margin-top: -10px;
+    align-self: flex-end;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #3882F6;
+    margin: 80px 22%;
+    color: rgb(228, 228, 228);
+    border-radius: 12px;
+    padding: 24px 48px;
+}
+
+.container h3 {
+    font-family: "Fugaz One", sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.container div p {
+    margin-top: -14px;
+    font-weight: bolder;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 20px;
+}
+
+.container button {
+    color: rgb(228, 228, 228);
+    background-color: #3882F6;
+    padding: 10px;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+   
+
+
+footer {
+    height: 60px;
+    background-color: #1F2937;
+    text-align: center;
+    line-height: 60px;
+    color: rgb(228, 228, 228);
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
